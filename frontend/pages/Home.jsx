@@ -27,7 +27,7 @@ export default function Home() {
 
   const fetchProduct = async () => {
     try {
-      const url = "http://localhost:8080/products";
+      const url = "https://auth-react-app-x6np.onrender.com/products";
       const response = await fetch(url, {
         method: "GET",
         headers: {
